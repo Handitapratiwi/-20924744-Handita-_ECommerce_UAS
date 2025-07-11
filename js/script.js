@@ -76,7 +76,7 @@ const products = {
       'Abu',
       'Ungu',
     ],
-    featured: true, // JADI PRODUK BUKAN UNGGULAN
+    featured: false, // JADI PRODUK BUKAN UNGGULAN
   },
   // PRODUK Beluna Serenity Cardigan
   'beluna-aurora-outer': {
