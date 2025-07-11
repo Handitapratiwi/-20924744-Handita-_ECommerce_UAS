@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Detail Produk - BELUNA</title>
+    <!-- css/style.css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Bagian Header dan Navigasi -->
+    <header>
+      <div class="navbar">
+        <h1 class="logo">Beluna</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- section produk preview -->
+    <section class="product-detail">
+      <div class="container">
+        <div class="product-image">
+          <img id="product-img" src="" alt="Produk" />
+        </div>
+        <div class="product-info">
+          <h2 id="product-name">Loading...</h2>
+          <p class="price" id="product-price"></p>
+          <p id="product-desc"></p>
+          <p><strong>Warna tersedia:</strong> <span id="product-colors"></span></p>
+          <p>
+            <label for="warna-select">Pilih Warna:</label><br />
+            <select id="warna-select" name="warna"></select>
+          </p>
+          <button id="buy-btn" class="btn">Beli Sekarang</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- section produk unggulan -->
+    <section class="products">
+      <h2>Produk Unggulan</h2>
+        <div class="product-grid" id="featured-products"></div>
+          <!--Produk akan di-generate oleh JS -->
+        </div>
+    </section>
+
+    <!--  Bagian Footer -->
+    <footer>
+      <p>&copy; 2025 Beluna. Semua hak dilindungi.</p>
+      <p>Email: <a href="mailto:info@beluna.com">info@beluna.com</a></p>
+      <p>Telepon: <a href="tel:+62881022269621">+62 8810-2226-9621</a></p>
+      <p>WhatsApp: <a href="https://wa.me/62881022269621?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank">+62 8810-2226-9621</a></p>
+      <p>Alamat: Jl. Merdeka No.123, Jakarta, Indonesia</p>
+    </footer>
+
+    <!-- js/script.js -->
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
